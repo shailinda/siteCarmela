@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Escola Professora Carmela Morano Previdelli
+    </title>
+
+    <!--<link href="css/estilo.css" rel="stylesheet" type="text/css"/>        -->
+
+    <!--Arquivos do Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/Footer-with-logo.css">
+</head>
+
+<body>
+
+
+    <div class="container-fluid">
+
+        <nav class="navbar navbar-expand-custom navbar-mainbg fixed-top">
+            <a class="navbar-brand navbar-logo" href="#">CMD</a>
+            <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars text-white"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <div class="hori-selector">
+                        <div class="left"></div>
+                        <div class="right"></div>
+                    </div>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">
+                            <i class="fas fa-tachometer-alt"></i>Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#instituicao">
+                            <i class="far fa-address-book"></i>História da Instituição
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#equipe">
+                            <i class="far fa-clone"></i>Equipe Gestora</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cursos">
+                            <i class="far fa-calendar-alt"></i>Cursos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);">
+                            <i class="far fa-chart-bar"></i>Contatos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);">
+                            <i class="far fa-chart-bar"></i>Infraestrutura da Instituição
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);">
+                            <i class="far fa-chart-bar"></i>Recados e Comunicados
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);">
+                            <i class="far fa-copy"></i>Help</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main id="principal">
+            <section id="carrossel">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleFade" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleFade" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleFade" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleFade" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleFade" data-slide-to="5"></li>
+                        <li data-target="#carouselExampleFade" data-slide-to="6"></li>
+                        <li data-target="#carouselExampleFade" data-slide-to="7"></li>
+                        <li data-target="#carouselExampleFade" data-slide-to="8"></li>
+                        <li data-target="#carouselExampleFade" data-slide-to="9"></li>
+                        <li data-target="#carouselExampleFade" data-slide-to="10"></li>
+
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/imgBiblio.jpg" alt="Primeiro Slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Espaço Maker</h5>
+                                <p>com livros.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/imgLab.jpg" alt="Segundo Slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Espaço Maker</h5>
+                                <p>com computadores.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/imgEstac.jpg" alt="Terceiro Slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Estacionamento</h5>
+                                <p>Estacionamento exclusivo da equipe gestora e dos professores da escola.</p>
+                            </div>
+                        </div>>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/imgPatio.jpg" alt="Quarto Slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Pátio</h5>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/imgArvore.jpg" alt="Quinto Slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Pátio</h5>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/imgQuadraNovo.jpg" alt="Sexto Slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Quadra</h5>
+                                <p>Quadra de Esportes da nossa escola.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/imgFrente sala.jpeg" alt="Sétimo Slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Sala de Aula</h5>
+                                <p>Salas de Aula com projetores e wi-fi e televisores.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/imgFundosala.jpeg" alt="Oitavo Slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Sala de Aula</h5>
+                                <p>Salas de Aula com projetores e wi-fi e televisores.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/imgRefeitório.jpg" alt="Nono Slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Refeitório</h5>
+                                <p>Praça de Alimentação Escolar.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/imgCozinha.jpg" alt="Décimo Slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Cozinha</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </section>
+            <section id="instituicao">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-primary text-center">FUNDAÇÃO DA ESCOLA</h3>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-2">
+                        <div class="card" style="width: 14rem;">
+                            <img class="card-img-top" src="img/imgCarmela.jpg" alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <p class="card-text">Foto da Prof° Carmela Morano Prevideli.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10">
+                        A escola foi fundada em 16 de agosto de 1985, durante a administração do prefeito Dr. Adail Nunes da Silva . Na ocasião recebeu
+                        o nome E.E.P.G. Profª Carmela Morano Previdelli.
+                    </div>
+                </div>
+            </section>
+
+            <section id="equipe">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-primary text-center">EQUIPE GESTORA</h3>
+                    </div>
+                </div>
+                <div class="row container-fluid">
+
+                    <div class="col-1" style="width: 18rem;">
+                        <p></p>
+                    </div>
+
+                    <div class="card col-2 text-center" style="width: 18rem;">
+                        <img class="card-img-top" src="img/imgAdriana.jpeg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <p class="card-text-center">Adriana Pinotti</p>
+                            <b>Diretora</b>
+                        </div>
+                    </div>
+
+                    <div class="card col-2 text-center" style="width: 18rem;">
+                        <div class="p-3 mb-2 bg-transparent text-black">
+                        <img class="card-img-top" src="img/imgKarina.jpeg" alt="Imagem de capa do card">
+                        <div class="card-body"></div>
+                            <p class="card-text-center">Karina Canhadas</p>
+                            <b>Coordenador de Organização Escolar</b>
+                        </div>
+
+                    </div>
+
+                    <div class="card col-2 text-center" style="width: 18rem;">
+                        <div class="p-3 mb-2 bg-transparent text-black">
+                        <img class="card-img-top" src="img/imgSirlene.jpeg" alt="Imagem de capa do card">
+                        <div class="card-body"></div>
+                            <p class="card-text-center">Sirlene Santos</p>
+                            <b>Coordenadora de Organização Escolar</b> 
+                        </div>
+                    </div>
+
+
+                    <div class="card col-2 text-center" style="width: 18rem;">
+                        <div class="p-3 mb-0 bg-transparent text-black">
+                        <img class="card-img-top" src="img/imgJulyana.jpeg" alt="Imagem de capa do card">
+                        <div class="card-body"></div>
+        
+                            <p class="card-text-center">Julyana Garcia</p>
+                            <b>Coordenador de Gestão Pedagógica</b> 
+                        </div>
+                    </div>
+
+                    <div class="card col-2 text-center" style="width: 18rem;">
+                        <div class="p-3 mb-2 bg-transparent text-black">
+                        <img class="card-img-top" src="img/imgNeia.jpeg" alt="Imagem de capa do card">
+                        <div class="card-body"></div>
+                            <p class="card-text">Lucinéia Johansen</p>
+                            <b>Coordenador de Gestão Pedagógica</b> 
+                        </div>
+                    </div>
+                    <div class="col-1" style="width: 18rem;">
+                        <p></p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="professor">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="text-primary text-center">PROFESSORES PROATEC</h3>
+                        </div>
+                    </div>
+                    <div class="row container-fluid text-center espaco">
+                        <div class="col-3" style="width: 18rem;">
+                            <p></p>
+                        </div>
+                        <div class="card col-2" style="width: 18rem;">
+                            <img class="card-img-top" src="img/imgElcio.jpeg" alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <p class="card-text-center">Élcio Cirino</p>
+                                <p>Professor PROATEC</p>
+                            </div>
+                        </div>
+
+                        <div class="card col-2" style="width: 18rem;">
+                            <img class="card-img-top" src="img/imgCarmela2.jpeg" alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <p class="card-text-center">Isabela</p>
+                                <p>Professor PROATEC</p>
+                            </div>
+
+                        </div>
+
+                        <div class="card col-2" style="width: 18rem;">
+                            <img class="card-img-top" src="img/imgAlessandro.jpeg" alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <p class="card-text-center">Alessandro</p>
+                                <p>Professor PROATEC</p>
+                            </div>
+                        </div>
+                        <div class="col-3" style="width: 18rem;">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="professor-read">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-primary text-center espaco">PROFESSORES READAPTADOS</h3>
+                    </div>
+                </div>
+                <div class="row container-fluid espaco">
+
+                    <div class="col-1" style="width: 18rem;">
+                        <p></p>
+                    </div>
+
+                    <div class="card col-2 text-center" style="width: 18rem;">
+                        <img class="card-img-top" src="img/imgLau.jpeg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <p class="card-text-center">Laudenir</p>
+                            <p>Professor Readaptado</p>
+                        </div>
+                    </div>
+
+                    <div class="card col-2 text-center" style="width: 18rem;">
+                        <img class="card-img-top" src="img/imgCarmela2.jpeg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <p class="card-text-center">Marilda</p>
+                            <p>Professor Readaptado</p>
+                        </div>
+                    </div>
+
+                    <div class="card col-2 text-center" style="width: 18rem;">
+                        <img class="card-img-top" src="img/imgCarmela2.jpeg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <p class="card-text-center">Fabiana</p>
+                            <p>Professora Readaptados</p>
+                        </div>
+                    </div>
+                    <div class="col-1" style="width: 18rem;">
+                        <p></p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="cursos" class="parallax">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="text-white text-center espaco">CURSOS</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3 corletras negritocursos">
+                            Ensino Integrado com ETEC Dr. "Adail Nunes da Silva". Desenvolvimento de Sistemas:
+                        </div>
+                        <div class="col-3 corletras">
+                            Desenvolvimento de sistemas é uma área responsável por analisar, desenvolver, projetar, implementar e atualizar sistemas
+                            de informação. Os profissionais da área geram softwares, que são executados em hardwares e operados
+                            por usuários diversos.
+                        </div>
+                        <div class="col-3 corletras negritocursos">
+                           Eletiva: "MasterChef"
+                        </div>
+                        <div class="col-3 corletras">
+                            A Eletiva de MasterChef tem como intuito incentivar e desenvolver a participação dos alunos na cozinha.
+                        </div>
+                    </div>
+            </section>
+            <section id="projetos">
+                    <h3 class="text-primary text-center espaco">Club do Livro</h3>
+                    <p>O Club do Livro é um projeto criado para influenciar a leitura </p>
+            </section>
+        </main>
+        <footer id="myFooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h5>Endereço</h5>
+                        <ul>
+                            <p>Reynaldo Pinseta,216 - Jardim
+                            Santa Cruz, Taquaritinga - SP,
+                            15900-000
+                            </p>
+                        </ul>
+
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>Contato</h5>
+                        <ul>
+                                <p>Tel: (16) 3253-2010</p> 
+                                <p>Email: e048379w10@professor.educacao.sp.gov.br </p>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>Suporte</h5>
+                        <ul>
+                            <p>HELP</p>
+    
+            
+                        </ul>
+                    </div>
+
+                    <p>Todos os Direitos Reservados: Beatriz França, Gabrielli, Giovani Santos, Michele Maria, Patrick Leodoro, Shaienne Nascimento. </p>
+                </div>
+            </div>
+            <div class="second-bar">
+                <div class="container">
+                    <h2 class="logo">
+                        <a href="https://programadorviking.com.br/"> </a>
+                    </h2>
+                    <div class="social-icons">
+                        <a href="https://programadorviking.com.br/" class="twitter">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="https://programadorviking.com.br/" class="facebook">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="https://programadorviking.com.br/" class="instagram">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+</body>
+
+</html>
